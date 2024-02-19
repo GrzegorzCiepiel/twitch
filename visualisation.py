@@ -24,6 +24,14 @@ labels = ["US", "DE", "CA", "N/A", "GB", "TR", "BR", "DK", "PL", "BE", "NL", "Ot
 
 countries = [447, 66, 64, 49, 45, 28, 25, 20, 19, 17, 17, 279]
 
+plt.figure()
+plt.pie(countries, labels=labels)
+plt.axis('equal')
+plt.title('Viewers countries')
+plt.show()
+plt.clf()
+
+
 # Line Graph: Time Series Analysis
 
 hour = range(24)

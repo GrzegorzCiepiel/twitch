@@ -14,7 +14,9 @@ ax = plt.subplot()
 plt.bar(range(len(viewers)), viewers, color='purple')
 ax.set_xticks(range(10))
 ax.set_xticklabels(games, rotation=30)
-plt.title('Games viewers')
+plt.title('Games Viewers')
+plt.xlabel('Games')
+plt.ylabel('Views')
 plt.show()
 plt.clf()
 
@@ -24,13 +26,24 @@ labels = ["US", "DE", "CA", "N/A", "GB", "TR", "BR", "DK", "PL", "BE", "NL", "Ot
 
 countries = [447, 66, 64, 49, 45, 28, 25, 20, 19, 17, 17, 279]
 
+colors = ['lightskyblue', 'gold', 'lightcoral', 'gainsboro', 'royalblue',
+          'lightpink', 'darkseagreen', 'sienna', 'khaki', 'gold', 'violet',
+          'yellowgreen']
+
 plt.figure()
-plt.pie(countries, labels=labels)
+plt.pie(countries,
+        labels=labels,
+        colors=colors,
+        explode = (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+        shadow=True,
+        startangle=345,
+        autopct='%1.0f%%',
+        pctdistance=1.35
+)
 plt.axis('equal')
 plt.title('Viewers countries')
 plt.show()
 plt.clf()
-
 
 # Line Graph: Time Series Analysis
 

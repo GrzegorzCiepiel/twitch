@@ -7,7 +7,7 @@ import pandas as pd
 
 games = ["LoL", "Dota 2", "CS:GO", "DayZ", "HOS", "Isaac", "Shows", "Hearth", "WoT", "Agar.io"]
 
-viewers =  [1070, 472, 302, 239, 210, 171, 170, 90, 86, 71]
+viewers =  [63693, 28270, 17845, 12544, 11632, 9756, 9192, 5176, 4750, 3847]
 
 plt.figure()
 ax = plt.subplot()
@@ -17,14 +17,15 @@ ax.set_xticklabels(games, rotation=30)
 plt.title('Games Viewers')
 plt.xlabel('Games')
 plt.ylabel('Views')
+plt.savefig('games_viewers.png')
 plt.show()
 plt.clf()
 
 # Pie Chart: League of Legends Viewers' Whereabouts
 
-labels = ["US", "DE", "CA", "N/A", "GB", "TR", "BR", "DK", "PL", "BE", "NL", "Others"]
+labels = ["US", "CA", "DE", "N/A", "GB", "TR", "BR", "AU", "SE", "NL", "Others"]
 
-countries = [447, 66, 64, 49, 45, 28, 25, 20, 19, 17, 17, 279]
+countries = [28109, 4323, 3642, 2589, 2318, 1449, 1297, 1180, 1062, 956, 16752]
 
 colors = ['lightskyblue', 'gold', 'lightcoral', 'gainsboro', 'royalblue',
           'lightpink', 'darkseagreen', 'sienna', 'khaki', 'gold', 'violet',
@@ -34,7 +35,7 @@ plt.figure()
 plt.pie(countries,
         labels=labels,
         colors=colors,
-        explode = (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+        explode = (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
         shadow=True,
         startangle=345,
         autopct='%1.0f%%',
@@ -42,6 +43,7 @@ plt.pie(countries,
 )
 plt.axis('equal')
 plt.title('Viewers countries')
+plt.savefig('countries_viewers.png')
 plt.show()
 plt.clf()
 
@@ -62,5 +64,6 @@ plt.legend(['2015-01-01'], loc=4)
 plt.title("Time Series")
 plt.xlabel("Hour")
 plt.ylabel("Viewers")
+plt.savefig('time_series.png')
 plt.show()
 plt.clf()

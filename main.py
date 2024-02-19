@@ -1,7 +1,7 @@
 import sqlite3
 import csv
 
-db = sqlite3.connect('twich.db')
+db = sqlite3.connect('twitch.db')
 cursor = db.cursor()
 cursor.execute('''
     CREATE TABLE stream (

@@ -50,3 +50,17 @@ helen,
 newman,
 elaine,
 susan
+
+Most popular game is Legue of Legends also known as 'LoL'
+
+![most_popular_games](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/e039577d-2882-4493-ae5a-a2057e730e10)
+
+The highest amount of vievers comes from United States 
+
+![most_popular_countries](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/5415c38a-8757-47f1-9da3-5794e30c61b9)
+
+Most of the vievers stream straight by website:
+
+![image](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/203d15db-5d44-4e29-b3dd-642f58a98351)
+
+

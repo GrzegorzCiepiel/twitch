@@ -1,3 +1,13 @@
+![image](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/500448f9-3e7d-441a-8f91-97f27f05d0ee)
+
+# Twich Gaming Data Analyse with SQLite and python
+
+Twitch is the world’s leading live streaming platform for gamers, with 15 million daily active users. Using data to understand its users and products is one of the main responsibilities of the Twitch Data Science Team.
+
+In this project I use two tables that contain Twitch user's stream viewing data and chat room usage data.
+
+ 
+ 
  There are 23 different games : 
 
 

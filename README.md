@@ -92,7 +92,7 @@ As we can see most people streams in the evening with max tresholdbetween 20:00 
 
 ## Conclusions
 
-From the 23 distinct games streemed in january 2015 the most popular were Multiplayer Online Battle Arena games - Leque of Legends and Data 2.
+From the 23 distinct games streemed in 01 january 2015 the most popular were Multiplayer Online Battle Arena games - Leque of Legends and Data 2.
 Highest amount of vievers ( more than 40% ) come from United States and most of them streem between 20:00 and 22:00 local time.
 Most of the vievers stream straight from twitch website.
 

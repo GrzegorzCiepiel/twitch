@@ -50,4 +50,17 @@ plt.clf()
 hour = range(24)
 
 viewers_hour = [30, 17, 34, 29, 19, 14, 3, 2, 4, 9, 5, 48, 62, 58, 40, 51, 69, 55, 76, 81, 102, 120, 71, 63]
+y_upper = [round(x*1.15,2) for x in viewers_hour]
+y_lower = [round(x*0.85,2) for x in viewers_hour]
 
+plt.figure()
+ax = plt.subplot()
+plt.plot(hour, viewers_hour)
+plt.fill_between(hour, y_upper, y_lower, alpha=0.2)
+ax.set_xticks(range(24))
+plt.legend(['2015-01-01'], loc=4)
+plt.title("Time Series")
+plt.xlabel("Hour")
+plt.ylabel("Viewers")
+plt.show()
+plt.clf()

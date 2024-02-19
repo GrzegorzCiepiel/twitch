@@ -81,12 +81,21 @@ susan
 
 Most of the vievers stream straight from twitch website:
 
-![image](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/203d15db-5d44-4e29-b3dd-642f58a98351)
+![image](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/cca9e195-6f51-4f9a-ab14-610d24b12596)
+
+
 
 For the United States, the daily distribution of stream activity is as follows:
 ![time_series](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/babec853-8923-46d6-950d-27a334b0b53c)
 
-I 15% of 
+As we can see most people streams in the evening with max tresholdbetween 20:00 and 22:00 
+
+## Conclusions
+
+From the 23 distinct games streemed in january 2015 the most popular were Multiplayer Online Battle Arena games - Leque of Legends and Data 2.
+Highest amount of vievers ( more than 40% ) come from United States and most of them streem between 20:00 and 22:00 local time.
+Most of the vievers stream straight from twitch website.
+
 
 
 

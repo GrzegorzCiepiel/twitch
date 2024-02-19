@@ -51,7 +51,7 @@ newman,
 elaine,
 susan
 
-Most popular game is Legue of Legends also known as 'LoL'
+Most popular game is Legue of Legends also known as 'LoL' and Dota 2. Both games represent Multiplayer Online Battle Arena ( MOBA ).
 
 ![most_popular_games](https://github.com/GrzegorzCiepiel/twitch/assets/135313652/e039577d-2882-4493-ae5a-a2057e730e10)
 
